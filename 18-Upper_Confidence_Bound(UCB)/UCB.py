@@ -36,7 +36,10 @@ for n in range(0, N):
     total_reward = total_reward + reward
     
 # Visualising the results
-
+plt.hist(ads_selected)
+plt.title('Histogram at ads selections')
+plt.xlabel('Ads')
+plt.ylabel('Number of times each ad was selected')
         
         
         
